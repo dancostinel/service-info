@@ -1,0 +1,4 @@
+services:
+#    dan_costinel_service_info.example:
+#        class: DanCostinel\ServiceInfoBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

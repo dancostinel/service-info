@@ -1,0 +1,33 @@
+{
+    "name":"dancostinel/serviceinfobundle",
+    "type":"symfony-bundle",
+    "description":"DanCostinel ServiceInfoBundle",
+    "keywords":["dancostinel service info"],
+    "homepage":"https://github.com/dancostinel/service-info",
+    "license":"MIT",
+    "authors":[{
+        "name":"Dan Costinel",
+        "email":"arma99eDAN@yahoo.com"
+    }],
+    "require":{
+        "php":"^5.5.9 || ^7.0",
+        "symfony/framework-bundle":"^2.7 || ^3.0",
+        "symfony/console":"^2.7 || ^3.0",
+        "dancostinel/serviceinfobundle":"dev-master"
+    },
+    "autoload":{
+        "psr-4":{
+            "DanCostinel\\ServiceInfoBundle":""
+        }
+    },
+    "target-dir":"DanCostinel/ServiceInfoBundle",
+    "repositories":[{
+        "type":"vcs",
+        "url":"https://github.com/dancostinel/service-info.git"
+    }],
+    "extra":{
+        "branch-alias":{
+            "dev-master":"1.0-dev"
+        }
+    }
+}
